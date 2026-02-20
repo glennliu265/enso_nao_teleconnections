@@ -1,0 +1,34 @@
+name: baseclim
+channels:
+    - conda-forge
+    - defaults
+
+dependencies:
+    - python=3.12    # Python version 3.12
+    - jupyterlab     # Jupyter Lab environment
+    - numpy         
+    - matplotlib
+    - scipy
+    - cartopy
+    - pandas
+    - seaborn
+    - nc-time-axis
+    - hvplot         # Interactive plots with xarray
+    - xarray
+    - cmocean        # Colormaps for Oceanography
+    - cartopy        # Mapping toolbox, projections
+    - geoviews       # Flexible visualizations of geospatial data
+    - ipywidgets
+    - tqdm           # Progress bars
+    - netCDF4        # Recommended by xarray (start)
+    - pydap
+    - h5netcdf
+    - zarr
+    - cftime
+    - iris
+    - bottleneck
+    - numbagg
+    - flox           # For faster .groupby() operations
+    - climlab        # Calculating Estimated Inversion Strength, etc
+    - scikit-learn   
+
